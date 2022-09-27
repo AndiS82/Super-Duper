@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Gilda';
+    src: url(../fonts/GildaDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Maven';
+    src: url(../fonts/MavenPro-Regular.ttf);
+}
+
+html {
+    font-size: 10px;
+}
+
+header {
+    background-color: black;
+}
+
+header h1 {
+    color: #cccccc;
+    font-family: 'MavenPro-Regular', sans-serif;
+    display: inline-block;
+    padding: 1em;
+    width: 2em;
+    letter-spacing: 1rem;
+}
+
+header section.HeaderBox {
+    color: white;
+    width: 25em;
+    height: 16em;
+    margin: 20em auto;
+    background: linear-gradient(to top right, #8507e1, #194894, #3dc8d5);
+}
+
+header section.HeaderBox:hover {
+    background: linear-gradient(to bottom left, #8507e1, #194894, #3dc8d5);
+}
+
+header section.HeaderBox h2 {
+    font-family: 'MavenPro-Regular', serif;
+    text-align: center;
+    font-size: 4rem;
+    padding: 0.3em 0.25em;
+}
+
+header section.HeaderBox p {
+    text-align: center;
+    font-size: 01.5rem;
+    font-family: 'MavenPro-Regular', serif;
+    padding: 0.25em;
+}
+
+header nav ul {
+    text-align: right;
+    padding: 2em;
+    font-family: 'MavenPro-Regular', serif;
+}
+
+header nav ul li {
+    padding: 0.5em;
+}
+
+header nav ul li.HeaderBoxP {
+    text-transform: uppercase;
+}
+
+header nav ul li a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: white;
+}
+
+main {
+    background-image: url("https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg");
+    background-repeat: no-repeat;
+    background-position: top 15vh left 10vh;
+    background-size: 70vw;
+}
+
+main section.MainBox1 {
+    display: inline-block;
+    width: 50vw;
+    height: 100vh;
+}
+
+main section h1 {
+    font-size: 5rem;
+    margin-top: 30vh;
+    margin-left: 10vh;
+}
+
+main section.MainBox1 p {
+    font-family: 'MavenPro-Regular', serif;
+    word-spacing: 0.5rem;
+    line-height: 1.5rem;
+    font-size: 1.3rem;
+    margin-left: 10vh;
+    margin-top: 5vh;
+}
+
+main section img {
+    display: block;
+    width: 70vw;
+    margin-left: 15vh;
+    border-radius: 1em;
+}
+
+main section h2 {
+    font-size: 5rem;
+    margin-top: 10vh;
+    margin-left: 15vh;
+}
+
+main section p.MainBox2P,
+main section p.MainBox3P,
+main section p.MainBox4P {
+    width: 50vw;
+    height: 30vh;
+    margin-left: 15vh;
+    margin-top: 5vh;
+    text-transform: uppercase;
+}
